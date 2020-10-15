@@ -4,11 +4,11 @@ fun main() {
 
     val arr = arrayOf(9, 1, 0, -45, 90, 33, 34, 1023, 19, 2)
 
-    println("Before sort: ${arr.pretty()}")
+    println("Before quick sort: ${arr.pretty()}")
 
     quickSort(arr, 0, arr.size - 1)
 
-    println("After sort: ${arr.pretty()}")
+    println("After quick sort: ${arr.pretty()}")
 }
 
 fun quickSort(arr: Array<Int>, startIdx: Int, endIdx: Int) {
