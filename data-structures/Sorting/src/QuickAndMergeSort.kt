@@ -1,5 +1,3 @@
-import java.lang.StringBuilder
-
 fun main() {
 
     val arr = arrayOf(9, 1, 0, -45, 90, 33, 34, 1023, 19, 2)
@@ -47,18 +45,4 @@ fun partition(arr: Array<Int>, startIdx: Int, endIdx: Int): Int {
     arr[partitionIdx] = swap
 
     return partitionIdx
-}
-
-fun Array<Int>.pretty(): String {
-    val tThis = this
-    return with(StringBuilder()) {
-        append("{ ")
-        tThis.forEachIndexed { index, v ->
-            if (index < (tThis.size - 1))
-                append("$v, ")
-            else
-                append("$v")
-        }
-        append(" }")
-    }.toString()
 }
