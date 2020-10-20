@@ -25,7 +25,7 @@ fun binarySearch(arr: Array<Int>, search: Int): Int {
     return find(arr = arr, startIdx = 0, endIdx = arr.size - 1, search = search)
 }
 
-fun find(arr: Array<Int>, startIdx: Int, endIdx: Int, search: Int): Int {
+private fun find(arr: Array<Int>, startIdx: Int, endIdx: Int, search: Int): Int {
 
     if (startIdx > endIdx)
         return -1
