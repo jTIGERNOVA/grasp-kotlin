@@ -1,19 +1,26 @@
 package com.jtigernova.guess
 
 import java.awt.Dimension
-import javax.swing.JButton
 import javax.swing.JFrame
+import javax.swing.JLabel
 
-fun main(){
-    with(JFrame()){
-        title = "Bry"
-        size = Dimension(500, 500)
-        isAlwaysOnTop = true
-        defaultCloseOperation = JFrame.EXIT_ON_CLOSE
+fun main() {
+    GuiMain().doMain()
+}
 
-        add(JButton("Test"))
-        setLocationRelativeTo(null)
-        pack()
-        isVisible = true
+class GuiMain {
+
+    fun doMain() {
+        with(JFrame()) {
+            title = "Bry"
+            minimumSize = Dimension(500, 500)
+            isAlwaysOnTop = true
+            defaultCloseOperation = JFrame.EXIT_ON_CLOSE
+
+            add(JLabel("Help"))
+            setLocationRelativeTo(null)
+            pack()
+            isVisible = true
+        }
     }
 }

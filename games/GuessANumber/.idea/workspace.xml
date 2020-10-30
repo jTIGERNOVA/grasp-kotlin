@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GuessANumber:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="47144793-b6d0-45b2-ac3c-da38193fc6f9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -22,6 +27,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="GuiMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
@@ -52,8 +61,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.GuiMainKt" />
+        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -69,29 +78,48 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="415" y="152" key="#Project_Structure" timestamp="1604064874070">
+      <screen x="63" y="23" width="1729" height="1097" />
+    </state>
+    <state x="415" y="152" key="#Project_Structure/63.23.1729.1097@63.23.1729.1097" timestamp="1604064874070" />
     <state x="391" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604014351549">
       <screen x="63" y="23" width="1729" height="1097" />
     </state>
     <state x="391" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/63.23.1729.1097@63.23.1729.1097" timestamp="1604014351549" />
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1604015727865">
+    <state x="664" y="368" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604064844996">
       <screen x="63" y="23" width="1729" height="1097" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom/63.23.1729.1097@63.23.1729.1097" timestamp="1604015727865" />
-    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1604015727864">
+    <state x="664" y="368" key="#com.intellij.ide.util.TreeClassChooserDialog/63.23.1729.1097@63.23.1729.1097" timestamp="1604064844996" />
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1604065068285">
       <screen x="63" y="23" width="1729" height="1097" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.center/63.23.1729.1097@63.23.1729.1097" timestamp="1604015727864" />
-    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1604015727864">
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom/63.23.1729.1097@63.23.1729.1097" timestamp="1604065068285" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1604065068284">
       <screen x="63" y="23" width="1729" height="1097" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.left/63.23.1729.1097@63.23.1729.1097" timestamp="1604015727864" />
-    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1604015727864">
+    <state width="1358" height="271" key="GridCell.Tab.0.center/63.23.1729.1097@63.23.1729.1097" timestamp="1604065068284" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1604065068284">
       <screen x="63" y="23" width="1729" height="1097" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.right/63.23.1729.1097@63.23.1729.1097" timestamp="1604015727864" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left/63.23.1729.1097@63.23.1729.1097" timestamp="1604065068284" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1604065068285">
+      <screen x="63" y="23" width="1729" height="1097" />
+    </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.right/63.23.1729.1097@63.23.1729.1097" timestamp="1604065068285" />
     <state x="595" y="293" key="GuiDesigner.FormSource.Dialog" timestamp="1604014522316">
       <screen x="63" y="23" width="1729" height="1097" />
     </state>
     <state x="595" y="293" key="GuiDesigner.FormSource.Dialog/63.23.1729.1097@63.23.1729.1097" timestamp="1604014522316" />
+    <state x="428" y="210" key="SettingsEditor" timestamp="1604064507919">
+      <screen x="63" y="23" width="1729" height="1097" />
+    </state>
+    <state x="428" y="210" key="SettingsEditor/63.23.1729.1097@63.23.1729.1097" timestamp="1604064507919" />
+    <state x="592" y="291" width="670" height="676" key="search.everywhere.popup" timestamp="1604065275118">
+      <screen x="63" y="23" width="1729" height="1097" />
+    </state>
+    <state x="592" y="291" width="670" height="676" key="search.everywhere.popup/63.23.1729.1097@63.23.1729.1097" timestamp="1604065275118" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GuessANumber$GuiMainKt.ic" NAME="GuiMainKt Coverage Results" MODIFIED="1604065068260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
