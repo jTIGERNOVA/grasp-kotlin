@@ -8,7 +8,7 @@ fun main() {
     val rand = Random()
 
     do {
-        println("I guessed ${rand.nextInt(10)}")
+        println("I guessed ${rand.nextInt(10)}. Enter -1 to quit")
         input = userInput.nextLine()
 
     } while (input != "-1")
