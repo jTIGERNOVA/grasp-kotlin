@@ -12,7 +12,7 @@ class GuiMain {
 
     fun doMain() {
         with(JFrame()) {
-            title = "Bry"
+            title = "Guess A Number"
             minimumSize = Dimension(500, 500)
             isAlwaysOnTop = true
             defaultCloseOperation = JFrame.EXIT_ON_CLOSE
